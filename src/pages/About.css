@@ -1,0 +1,145 @@
+
+
+/* Fade-in effect */
+
+@keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .fade-in-right {
+    animation: fadeInRight 1s ease-in-out;
+  }
+
+/* Styling for the About section */
+
+  .block_2 {
+  /* padding: 50px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #d7d2cc, #ac6167);
+}
+/* About Title at the top */
+.title_2 {
+    text-align: center;
+    /* margin-bottom: 30px; */
+  }
+
+  .title_2 h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  /* .title_2 h1{
+    display: flex;
+    align-items: baseline;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+  } */
+
+  /* Main content container: Flexbox layout */
+.block_3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+  }
+
+  
+/* Left content: name, title, and description */
+.title_3 {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .title_3 h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .title_3 h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .title_3 p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+
+  /* block_4: Profile photo */
+.block_4 {
+    width: 600px;
+    height: 600px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden; /* ⭐ Important: crop image inside circle */
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 35px;
+  }
+  
+  .block_4 .photo_2 {
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+    object-position: center top; /* ⭐ move face into center — adjust as needed */
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn_2 {
+    display: flex;
+    gap: 0 20px;
+}
+
+.btn_2 button {
+    padding: 10px 20px;
+    background-color: #03884e;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .btn_2 button:hover {
+    background-color: #053e25;
+  }
+
+  .btn_3 {
+    margin: 35px 0px 35px 0px;
+    display: flex;
+    gap: 0px 20px;
+  }
+  
+.btn_3 button {
+  padding: 10px 20px;
+  background-color: #f43d37;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn_3 button:hover {
+  background-color: #d93b2c;
+}

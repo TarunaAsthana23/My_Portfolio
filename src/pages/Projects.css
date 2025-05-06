@@ -1,0 +1,102 @@
+
+
+
+
+
+.projects-section {
+    padding: 40px;
+    background: linear-gradient(to right, #d7d2cc, #ac6167);
+    text-align: center;
+    color: #333;
+  }
+  
+  .projects-title {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .project-card {
+    /* background: linear-gradient(to right, #ac6167, #d7d2cc); */
+    background: #ffffff;
+    border-radius: 15px;
+    width: 280px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-img {
+    width: 100%;
+    border-radius: 10px;
+    /* margin-bottom: 15px; */
+    /* border-bottom: 1px solid #ccc; */
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 20px; */
+  }
+  
+  .tools {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px;
+    font-size: 22px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .project-links a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+
+
+  .vscode-icon {
+    width: 50px;
+    height: 27px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin: -7px 0px 0px -15px;
+  }
+
+  p.Parh_1{
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .btn_7 {
+    margin: 35px 0px 35px 0px;
+    display: flex;
+    gap: 0px 20px;
+    justify-content: center;
+  }
+  
+.btn_7 button {
+  padding: 10px 20px;
+  background-color: #f43d37;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn_7 button:hover {
+  background-color: #d93b2c;
+}
+  

@@ -1,0 +1,110 @@
+
+
+
+
+
+.con{
+  background: linear-gradient(to right, #d7d2cc, #ac6167);
+}
+.Con_1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact {
+    max-width: 600px;
+    margin: 50px 50px 50px 50px;
+    padding: 30px 50px 30px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    background-color: #fefefe;
+  }
+  
+  .contact h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  form.contact_form {
+    width: 530px;
+}
+  
+  .contact_form label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .contact_form input,
+  .contact_form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .btn_4 {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #f43d37;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn_4:hover {
+    background-color: #d93025;
+  }
+
+  
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin: 240px 0;
+  }
+  
+  .icon {
+    font-size: 40px;
+    color: #ffffff;
+    transition: transform 0.2s ease;
+  }
+  .\.icon_1 {
+    display: grid;
+    justify-content: center;
+}
+  
+  .icon:hover {
+    transform: scale(1.2);
+    color: #00aced;
+  }
+
+  .btn_5 {
+    margin: 35px 0px 0px 0px;
+    display: flex;
+    gap: 0px 20px;
+    justify-content: center;
+    padding: 0px 0px 35px 0px;
+  }
+  
+.btn_5 button {
+  padding: 10px 20px;
+  background-color: #f43d37;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn_5 button:hover {
+  background-color: #d93b2c;
+}
+  
