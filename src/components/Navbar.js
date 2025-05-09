@@ -1,7 +1,8 @@
 // Example: src/components/Navbar.js
 
 
-import React from "react";
+import React, { useState } from "react";
+// import { Link } from "react-scroll"; // react-scroll ka Link import
 import { NavLink } from "react-router-dom"; // NavLink import karo
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -9,16 +10,36 @@ import {
   faLinkedin,
 } 
 from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, 
+import { 
+  faEnvelope, 
   faFolderOpen, 
-  faPhone
+  faPhone,
+  faBars, 
+  faTimes
 } 
 from "@fortawesome/free-solid-svg-icons";
 import "./Navbar.css"; // CSS ko import karo
 
 function Navbar() {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
+
+
   return (
+
+  <>
+    
     <nav className="navbar">
+    {/* <div className="logo">My Portfolio</div> */}
        {/* 🔗 Social Links Div */}
 
 
@@ -41,15 +62,45 @@ function Navbar() {
           </a>
       </div>
 
-      <ul className="nav-links">
-        <li><NavLink to="/" activeClassName="active">Home</NavLink></li>
-        <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
-        <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
-        <li><NavLink to="/skills" activeClassName="active">Skills</NavLink></li>
-        <li><NavLink to="/projects" activeClassName="active">Projects</NavLink></li>
-      </ul>
- {/* Contact Me Button */}
-    </nav>
+        <ul className="nav-links">
+          <li> <NavLink to="/" end className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Home </NavLink> </li>
+          <li> <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > About </NavLink> </li>
+          <li> <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Contact </NavLink> </li>
+          <li> <NavLink to="/skills" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Skills </NavLink> </li>
+          <li> <NavLink to="/projects" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Projects </NavLink> </li>
+        </ul>
+
+       {/* 🔗 Normal Navigation Links */}
+      
+        {/* <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li> */}
+
+        {/* Popup Overlay Menu */}
+        <div className="menu-icon" onClick={toggleMenu}>
+          <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} />
+        </div>
+      </nav>
+
+      {menuOpen && (
+        <div className="popup-overlay">
+          <div className="close-icon" onClick={closeMenu}>
+            <FontAwesomeIcon icon={faTimes} />
+          </div>
+          <div className="popup-menu">
+            <ul>
+              <li> <NavLink to="/" end className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Home </NavLink> </li>
+              <li> <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > About </NavLink> </li>
+              <li> <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Contact </NavLink> </li>
+              <li> <NavLink to="/skills" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Skills </NavLink> </li>
+              <li> <NavLink to="/projects" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Projects </NavLink> </li>
+            </ul>
+          </div>
+        </div>
+      )}
+    </>
   );
 }
 

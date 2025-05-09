@@ -7,13 +7,14 @@ import "./Skills.css"; // Apni CSS file agar alag banayi ho to import karein
 
 function Skills() {
   return (
-    <div className="skills-page">
+    <section id="skills" name="skills">
+    <div className="skills-page" >
       <h1>My Skills</h1>
 
 
       <div className="skills-container_1">
         <div className="skill-box">
-          <h3>Frontend</h3>
+          <h2>Frontend</h2>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -22,7 +23,7 @@ function Skills() {
           </ul>
         </div>
         <div className="skill-box">
-          <h3>Backend</h3>
+          <h2>Backend</h2>
           <ul>
             <li>Node.js</li>
             <li>Express.js</li>
@@ -32,16 +33,16 @@ function Skills() {
       </div>
         
         
-        <div className="skills-container_2">
+      <div className="skills-container_2">
         <div className="skill-box">
-          <h3>Database</h3>
+          <h2>Database</h2>
           <ul>
             <li>MySQL</li>
             <li>MongoDB</li>
           </ul>
         </div>
         <div className="skill-box">
-          <h3>Tools & Platforms</h3>
+          <h2>Tools & Platforms</h2>
           <ul>
             <li>Git & GitHub</li>
             <li>Postman</li>
@@ -49,6 +50,7 @@ function Skills() {
           </ul>
         </div>
       </div>
+
 
       <div className="btn_6 ">
           {/* Button */}
@@ -58,7 +60,8 @@ function Skills() {
         <button onClick={() => window.location.href = "/projects"}> Projects </button>
       </div>
 
-    </div>
+      </div>
+      </section>
   );
 }
 

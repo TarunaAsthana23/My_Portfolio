@@ -1,102 +1,685 @@
 
+                  /* (320px - 480px) -------- ( Mobile ka normal Size) */
+  /* ✅ Mobile Devices (320px - 480px) */
+                  /* (320px - 480px) -------- ( Mobile ka normal Size) */
+  /* ✅ Mobile Devices (320px - 480px) */
 
 
 
-
-.projects-section {
-    padding: 40px;
-    background: linear-gradient(to right, #d7d2cc, #ac6167);
-    text-align: center;
-    color: #333;
-  }
-  
-  .projects-title {
-    font-size: 36px;
-    color: white;
-    margin-bottom: 30px;
-  }
-  
-  .projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .project-card {
-    /* background: linear-gradient(to right, #ac6167, #d7d2cc); */
-    background: #ffffff;
-    border-radius: 15px;
-    width: 280px;
-    padding: 20px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-  }
-  
-  .project-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .project-img {
-    width: 100%;
-    border-radius: 10px;
-    /* margin-bottom: 15px; */
-    /* border-bottom: 1px solid #ccc; */
-    /* padding-bottom: 20px; */
-    /* margin-bottom: 20px; */
-  }
-  
-  .tools {
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    margin-top: 10px;
-    font-size: 22px;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .project-links a {
-    display: block;
-    margin-top: 10px;
-    text-decoration: none;
-    color: #333;
-  }
+                  /* (481px - 768px) */
+  /* ✅ Tablets & iPads (481px - 768px) */
+                  /* (481px - 768px) */
+  /* ✅ Tablets & iPads (481px - 768px) */
 
 
-  .vscode-icon {
-    width: 50px;
-    height: 27px;
-    object-fit: contain;
-    vertical-align: middle;
-    margin: -7px 0px 0px -15px;
-  }
 
-  p.Parh_1{
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-  }
+                  /* (769px - 1024px) -------- (Mobile ka Desktop Size) */
+  /* ✅ Small Screens, Laptops (769px - 1024px) */
+                  /* (769px - 1024px) -------- (Mobile ka Desktop Size) */
+  /* ✅ Small Screens, Laptops (769px - 1024px) */
 
-  .btn_7 {
-    margin: 35px 0px 35px 0px;
-    display: flex;
-    gap: 0px 20px;
-    justify-content: center;
-  }
+
+
+                  /* (1025px - 1200px) */
+  /* ✅ Desktops & Large Screens (1025px - 1200px) */
+                  /* (1025px - 1200px) */
+  /* ✅ Desktops & Large Screens (1025px - 1200px) */
+
+
+
+                  /* (1201px and above) */
+  /* ✅ Extra Large Screens (1201px and above) */
+                  /* (1201px and above) */
+  /* ✅ Extra Large Screens (1201px and above) */                                           
+
+
+
+  /* @media screen and (max-width: 480px) {}  -------- ( Mobile ka normal Size)
+  @media screen and (min-width: 481px) and (max-width: 768px) {}
+  @media screen and (min-width: 769px) and (max-width: 1024px) {}  -------- (Mobile ka Desktop Size)
+  @media screen and (min-width: 1025px) and (max-width: 1200px) {}
+  @media screen and (min-width: 1201px) {} */
+
+                                     /* ---- Projects ----*/
+                                      /* (320px - 480px) */
+                             /* ✅ Mobile Devices (320px - 480px) */
+
+                    @media screen and (max-width: 480px) {
   
-.btn_7 button {
-  padding: 10px 20px;
-  background-color: #f43d37;
-  border: none;
-  color: white;
-  font-size: 1rem;
-  border-radius: 25px;
-  cursor: pointer;
-}
-
-.btn_7 button:hover {
-  background-color: #d93b2c;
-}
-  
+                      .projects-section {
+                        padding: 50px;
+                        background: linear-gradient(to right, #d7d2cc, #ac7b61);
+                        /* background: linear-gradient(to right, #d7d2cc, #00f6fe); */
+                        /* background: linear-gradient(to right, #ffffff, #ec5050, #79fac2); */
+                        text-align: center;
+                        color: #333;
+                      }
+                      
+                      .projects-title {
+                        font-size: 3rem;
+                        color: #333;
+                        text-align: center;
+                        margin-bottom: 50px;
+                      }
+                      
+                      .projects-container {
+                        display: grid;
+                                grid-template-columns: repeat(1, 1fr);
+                                justify-content: center;
+                                gap: 60px;
+                      }
+                      
+                      .project-card {
+                        /* background: linear-gradient(to right, #ac6167, #d7d2cc); */
+                        /* background: #ffffff; */
+                        background: #ebe7b3;
+                        border-radius: 15px;
+                        width: 250px;
+                        padding: 20px;
+                        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+                        transition: transform ;
+                      }
+                      
+                      .project-card:hover {
+                        transform: translateY(-20px);
+                        color: #333;
+                      }
+                      
+                      /* .project-links :hover {
+                        transform: translateY(-20px);
+                        color: #333;
+                      } */
+                      
+                      .project-img {
+                        width: 100%;
+                        border-radius: 10px;
+                        /* margin-bottom: 15px; */
+                        /* border-bottom: 1px solid #ccc; */
+                        /* padding-bottom: 20px; */
+                        /* margin-bottom: 20px; */
+                      }
+                      
+                      .tools {
+                        display: flex;
+                        justify-content: center;
+                        gap: 12px;
+                        margin-top: 10px;
+                        font-size: 30px;
+                        border-bottom: 2px solid #ccc;
+                        padding-bottom: 20px;
+                        margin-bottom: 20px;
+                      }
+                      
+                      .project-links a {
+                        font-size: 1.5rem;
+                        display: block;
+                        margin-top: 10px;
+                        text-decoration: none;
+                        color: #333;
+                      }
+                      
+                      
+                      .vscode-icon {
+                        width: 60px;
+                        height: 32px;
+                        object-fit: contain;
+                        vertical-align: middle;
+                        margin: -7px 0px 0px -15px;
+                      }
+                  
+                      h2.Pro_1 {
+                        font-size: 2rem;
+                    }
+                    h2.Pro_2 {
+                      font-size: 2rem;
+                  }
+                      
+                      p.Parh_1{
+                        font-size: 1.3rem;
+                        border-bottom: 2px solid #ccc;
+                        padding-bottom: 20px;
+                        margin-bottom: 20px;
+                      }
+                      
+                      .btn_7 {
+                        margin: 100px 0px 0px 0px;
+                        display: flex;
+                        gap: 0px 10px;
+                        justify-content: center;
+                        padding: 0px 0px 0px 0px;
+                      }
+                      
+                      .btn_7 button {
+                      padding: 10px 10px;
+                      background-color: #f43d37;
+                      border: none;
+                      color: white;
+                      font-size: 1rem;
+                      border-radius: 25px;
+                      cursor: pointer;
+                      }
+                      
+                      .btn_7 button:hover {
+                      background-color: #d93b2c;
+                      }
+                    }
+                  
+                                                /* (320px - 480px) */
+                                      /* ✅ Mobile Devices (320px - 480px) */
+                  
+                                                /* (481px - 768px) */
+                                      /* ✅ Tablets & iPads (481px - 768px) */
+                    
+                    @media screen and (min-width: 481px) and (max-width: 768px) {
+                    
+                      .projects-section {
+                        padding: 50px;
+                        /* background: linear-gradient(to right, #d7d2cc, #ac7b61); */
+                        /* background: linear-gradient(to right, #d7d2cc, #00f6fe); */
+                        background: linear-gradient(to right, #ffffff, #ec5050, #79fac2);
+                        text-align: center;
+                        color: #333;
+                      }
+                      
+                      .projects-title {
+                        font-size: 3rem;
+                        color: #333;
+                        text-align: center;
+                        margin-bottom: 130px;
+                      }
+                      
+                      .projects-container {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        gap: 60px;
+                      }
+                      
+                      .project-card {
+                        /* background: linear-gradient(to right, #ac6167, #d7d2cc); */
+                        /* background: #ffffff; */
+                        background: #ebe7b3;
+                        border-radius: 15px;
+                        width: 470px;
+                        padding: 20px;
+                        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+                        transition: transform ;
+                      }
+                      
+                      .project-card:hover {
+                        transform: translateY(-20px);
+                        color: #333;
+                      }
+                      
+                      /* .project-links :hover {
+                        transform: translateY(-20px);
+                        color: #333;
+                      } */
+                      
+                      .project-img {
+                        width: 100%;
+                        border-radius: 10px;
+                        /* margin-bottom: 15px; */
+                        /* border-bottom: 1px solid #ccc; */
+                        /* padding-bottom: 20px; */
+                        /* margin-bottom: 20px; */
+                      }
+                      
+                      .tools {
+                        display: flex;
+                        justify-content: center;
+                        gap: 12px;
+                        margin-top: 10px;
+                        font-size: 45px;
+                        border-bottom: 2px solid #ccc;
+                        padding-bottom: 20px;
+                        margin-bottom: 20px;
+                      }
+                      
+                      .project-links a {
+                        font-size: 1.5rem;
+                        display: block;
+                        margin-top: 10px;
+                        text-decoration: none;
+                        color: #333;
+                      }
+                      
+                      
+                      .vscode-icon {
+                        width: 85px;
+                        height: 45px;
+                        object-fit: contain;
+                        vertical-align: middle;
+                        margin: -15px 0px 0px -15px;
+                      }
+                  
+                      h2.Pro_1 {
+                        font-size: 2rem;
+                    }
+                    h2.Pro_2 {
+                      font-size: 2rem;
+                  }
+                      
+                      p.Parh_1{
+                        font-size: 1.3rem;
+                        border-bottom: 2px solid #ccc;
+                        padding-bottom: 20px;
+                        margin-bottom: 20px;
+                      }
+                      
+                      .btn_7 {
+                        margin: 100px 0px 0px 0px;
+                        display: flex;
+                        gap: 0px 20px;
+                        justify-content: center;
+                        padding: 0px 0px 0px 0px;
+                      }
+                      
+                      .btn_7 button {
+                      padding: 10px 20px;
+                      background-color: #f43d37;
+                      border: none;
+                      color: white;
+                      font-size: 1.1rem;
+                      border-radius: 25px;
+                      cursor: pointer;
+                      }
+                      
+                      .btn_7 button:hover {
+                      background-color: #d93b2c;
+                      }
+                    }
+                  
+                                                /* (481px - 768px) */
+                                      /* ✅ Tablets & iPads (481px - 768px) */
+                  
+                                                /* (769px - 1024px) */
+                                      /* ✅ Small Screens, Laptops (769px - 1024px) */
+                  
+                    @media screen and (min-width: 769px) and (max-width: 1024px) {
+                    
+                      .projects-section {
+                        padding: 50px;
+                        /* background: linear-gradient(to right, #d7d2cc, #ac7b61); */
+                        /* background: linear-gradient(to right, #d7d2cc, #00f6fe); */
+                        background: linear-gradient(to right, #ffffff, #ec5050, #79fac2);
+                        text-align: center;
+                        color: #333;
+                      }
+                      
+                      .projects-title {
+                        font-size: 3rem;
+                        color: #333;
+                        text-align: center;
+                        margin-bottom: 130px;
+                      }
+                      
+                      .projects-container {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        gap: 60px;
+                      }
+                      
+                      .project-card {
+                        /* background: linear-gradient(to right, #ac6167, #d7d2cc); */
+                        /* background: #ffffff; */
+                        background: #ebe7b3;
+                        border-radius: 15px;
+                        width: 470px;
+                        padding: 20px;
+                        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+                        transition: transform ;
+                      }
+                      
+                      .project-card:hover {
+                        transform: translateY(-20px);
+                        color: #333;
+                      }
+                      
+                      /* .project-links :hover {
+                        transform: translateY(-20px);
+                        color: #333;
+                      } */
+                      
+                      .project-img {
+                        width: 100%;
+                        border-radius: 10px;
+                        /* margin-bottom: 15px; */
+                        /* border-bottom: 1px solid #ccc; */
+                        /* padding-bottom: 20px; */
+                        /* margin-bottom: 20px; */
+                      }
+                      
+                      .tools {
+                        display: flex;
+                        justify-content: center;
+                        gap: 12px;
+                        margin-top: 10px;
+                        font-size: 45px;
+                        border-bottom: 2px solid #ccc;
+                        padding-bottom: 20px;
+                        margin-bottom: 20px;
+                      }
+                      
+                      .project-links a {
+                        font-size: 1.5rem;
+                        display: block;
+                        margin-top: 10px;
+                        text-decoration: none;
+                        color: #333;
+                      }
+                      
+                      
+                      .vscode-icon {
+                        width: 85px;
+                        height: 45px;
+                        object-fit: contain;
+                        vertical-align: middle;
+                        margin: -15px 0px 0px -15px;
+                      }
+                  
+                      h2.Pro_1 {
+                        font-size: 2rem;
+                    }
+                    h2.Pro_2 {
+                      font-size: 2rem;
+                  }
+                      
+                      p.Parh_1{
+                        font-size: 1.3rem;
+                        border-bottom: 2px solid #ccc;
+                        padding-bottom: 20px;
+                        margin-bottom: 20px;
+                      }
+                      
+                      .btn_7 {
+                        margin: 100px 0px 0px 0px;
+                        display: flex;
+                        gap: 0px 20px;
+                        justify-content: center;
+                        padding: 0px 0px 0px 0px;
+                      }
+                      
+                      .btn_7 button {
+                      padding: 10px 20px;
+                      background-color: #f43d37;
+                      border: none;
+                      color: white;
+                      font-size: 1.5rem;
+                      border-radius: 25px;
+                      cursor: pointer;
+                      }
+                      
+                      .btn_7 button:hover {
+                      background-color: #d93b2c;
+                      }
+                    }
+                  
+                                                /* (769px - 1024px) */
+                                      /* ✅ Small Screens, Laptops (769px - 1024px) */
+                  
+                                                /* (1025px - 1200px) */
+                                      /* ✅ Desktops & Large Screens (1025px - 1200px) */
+                    
+                    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+                    
+                      .projects-section {
+                        padding: 50px;
+                        /* background: linear-gradient(to right, #d7d2cc, #ac7b61); */
+                        /* background: linear-gradient(to right, #d7d2cc, #00f6fe); */
+                        background: linear-gradient(to right, #ffffff, #ec5050, #79fac2);
+                        text-align: center;
+                        color: #333;
+                      }
+                      
+                      .projects-title {
+                        font-size: 3rem;
+                        color: #333;
+                        text-align: center;
+                        margin-bottom: 130px;
+                      }
+                      
+                      .projects-container {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-evenly;
+                        /* justify-content: center; */
+                        gap: 60px 50px;
+                      }
+                      
+                      .project-card {
+                        /* background: linear-gradient(to right, #ac6167, #d7d2cc); */
+                        /* background: #ffffff; */
+                        background: #ebe7b3;
+                        border-radius: 15px;
+                        width: 350px;
+                        padding: 20px;
+                        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+                        transition: transform ;
+                      }
+                      
+                      .project-card:hover {
+                        transform: translateY(-20px);
+                        color: #333;
+                      }
+                      
+                      /* .project-links :hover {
+                        transform: translateY(-20px);
+                        color: #333;
+                      } */
+                      
+                       /* .project-img {
+                        width: 100%;
+                        height: 250px;    
+                        object-position: top;         */
+                    /*  fixed height */
+                    /*  object-fit: contain;    */
+                    /*  shows full image without cropping */
+                    /*  border-radius: 10px; */
+                    /*  background-color: #fff;  */
+                    /*  optional: for transparent PNGs */
+                      /* } */
+                  
+                      .project-img {
+                        width: 100%;
+                        height: auto;
+                        aspect-ratio: 16 / 16;     
+                        /* aspect-ratio: 16 / 24;      */
+                        /* ya 4/3, depending on your layout */
+                        object-fit: cover;
+                        object-position: top;   
+                        border-radius: 10px;
+                      }
+                      .tools {
+                        display: flex;
+                        justify-content: center;
+                        gap: 12px;
+                        margin-top: 10px;
+                        font-size: 45px;
+                        border-bottom: 2px solid #ccc;
+                        padding-bottom: 20px;
+                        margin-bottom: 20px;
+                      }
+                      
+                      .project-links a {
+                        font-size: 1.8rem;
+                        display: block;
+                        margin-top: 10px;
+                        text-decoration: none;
+                        color: #333;
+                      }
+                      
+                      h2.Pro_1 {
+                        font-size: 2rem;
+                    }
+                    h2.Pro_2 {
+                      font-size: 1.8rem;
+                  }
+                      
+                      p.Parh_1{
+                        font-size: 1.3rem;
+                        border-bottom: 2px solid #ccc;
+                        padding-bottom: 20px;
+                        margin-bottom: 20px;
+                      }
+                      
+                      .btn_7 {
+                        margin: 100px 0px 0px 0px;
+                        display: flex;
+                        gap: 0px 20px;
+                        justify-content: center;
+                        padding: 0px 0px 0px 0px;
+                      }
+                      
+                      .btn_7 button {
+                      padding: 10px 20px;
+                      background-color: #f43d37;
+                      border: none;
+                      color: white;
+                      font-size: 1.3rem;
+                      border-radius: 25px;
+                      cursor: pointer;
+                      }
+                      
+                      .btn_7 button:hover {
+                      background-color: #d93b2c;
+                      }
+                    }                  
+                  
+                                                /* (1025px - 1200px) */
+                                      /* ✅ Desktops & Large Screens (1025px - 1200px) */
+                  
+                                                /* (1201px and above) */
+                                      /* ✅ Extra Large Screens (1201px and above) */
+                                                             
+                   
+                    @media screen and (min-width: 1201px) {
+                    
+                      .projects-section {
+                        padding: 50px;
+                        /* background: linear-gradient(to right, #d7d2cc, #ac7b61); */
+                        /* background: linear-gradient(to right, #d7d2cc, #00f6fe); */
+                        background: linear-gradient(to right, #ffffff, #ec5050, #79fac2);
+                        text-align: center;
+                        color: #333;
+                      }
+                      
+                      .projects-title {
+                        font-size: 3rem;
+                        color: #333;
+                        text-align: center;
+                        margin-bottom: 130px;
+                      }
+                      
+                      .projects-container {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        gap: 60px;
+                      }
+                      
+                      .project-card {
+                        /* background: linear-gradient(to right, #ac6167, #d7d2cc); */
+                        /* background: #ffffff; */
+                        background: #ebe7b3;
+                        border-radius: 15px;
+                        width: 320px;
+                        padding: 20px;
+                        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+                        transition: transform ;
+                      }
+                      
+                      .project-card:hover {
+                        transform: translateY(-20px);
+                        color: #333;
+                      }
+                      
+                      /* .project-links :hover {
+                        transform: translateY(-20px);
+                        color: #333;
+                      } */
+                      
+                      /* .project-img {
+                        width: 100%;
+                        height: 250px;    
+                        object-position: top;         */
+                    /*  fixed height */
+                    /*  object-fit: contain;    */
+                    /*  shows full image without cropping */
+                    /*  border-radius: 10px; */
+                    /*  background-color: #fff;  */
+                    /*  optional: for transparent PNGs */
+                      /* } */
+                  
+                      .project-img {
+                        width: 100%;
+                        height: auto;
+                        aspect-ratio: 16 / 16;     
+                        /* aspect-ratio: 16 / 24;      */
+                        /* ya 4/3, depending on your layout */
+                        object-fit: cover;
+                        object-position: top;   
+                        border-radius: 10px;
+                      }
+                      
+                      .tools {
+                        display: flex;
+                        justify-content: center;
+                        gap: 12px;
+                        margin-top: 10px;
+                        font-size: 22px;
+                        border-bottom: 2px solid #ccc;
+                        padding-bottom: 20px;
+                        margin-bottom: 20px;
+                      }
+                      
+                      .project-links a {
+                        font-size: 1rem;
+                        display: block;
+                        margin-top: 10px;
+                        text-decoration: none;
+                        color: #333;
+                      }
+                      
+                      h2.Pro_1 {
+                        font-size: 1.3rem;
+                    }
+                  
+                    h2.Pro_2 {
+                      font-size: 1.3rem;
+                    }
+                      
+                      p.Parh_1{
+                        font-size: 0.9rem;
+                        border-bottom: 2px solid #ccc;
+                        padding-bottom: 20px;
+                        margin-bottom: 20px;
+                      }
+                      
+                      .btn_7 {
+                        margin: 100px 0px 0px 0px;
+                        display: flex;
+                        gap: 0px 20px;
+                        justify-content: center;
+                        padding: 0px 0px 0px 0px;
+                      }
+                      
+                      .btn_7 button {
+                      padding: 10px 20px;
+                      background-color: #f43d37;
+                      border: none;
+                      color: white;
+                      font-size: 1rem;
+                      border-radius: 25px;
+                      cursor: pointer;
+                      }
+                      
+                      .btn_7 button:hover {
+                      background-color: #d93b2c;
+                      }
+                    }
+                  
+                                                /* (1201px and above) */
+                                      /* ✅ Extra Large Screens (1201px and above) */ 
+                                                /* ---- Projects ----*/
