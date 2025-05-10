@@ -2,7 +2,7 @@
 
 import React from "react";
 import profilePic_2 from "../Assets/Home/Chubby(1).jpg";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 import "./About.css";  // ← Yeh line add kariye
 
 
@@ -33,12 +33,12 @@ function About() {
             
               <div className="btn_2 fade-in-right">
                   {/* Preview CV */}
-                <button onClick={() => window.open("/Set/Resume/CV_2024-09-10_Taruna_Asthana.pdf", "_blank")}>
+                <button onClick={() => window.open("/Set/Resume/2025 TARUNA_ASTHANA.pdf", "_blank")}>
                   Preview CV
                 </button>
 
                   {/* Download CV */}
-                <a href="/Set/Resume/CV_2024-09-10_Taruna_Asthana.pdf" download>
+                <a href="/Set/Resume/2025 TARUNA_ASTHANA.pdf" download>
                   <button>Download CV</button>
                 </a>
               </div>
