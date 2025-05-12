@@ -68,6 +68,7 @@ function Navbar() {
           <li> <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Contact </NavLink> </li>
           <li> <NavLink to="/skills" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Skills </NavLink> </li>
           <li> <NavLink to="/projects" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Projects </NavLink> </li>
+          <li> <NavLink to="/resume" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Resume </NavLink> </li>
         </ul>
 
        {/* 🔗 Normal Navigation Links */}
@@ -96,6 +97,7 @@ function Navbar() {
               <li> <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Contact </NavLink> </li>
               <li> <NavLink to="/skills" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Skills </NavLink> </li>
               <li> <NavLink to="/projects" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Projects </NavLink> </li>
+              <li> <NavLink to="/resume" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu} > Resume </NavLink> </li>
             </ul>
           </div>
         </div>

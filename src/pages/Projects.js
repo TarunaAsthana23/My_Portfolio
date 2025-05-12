@@ -24,7 +24,8 @@ const projects = [
     tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel'],
     repoLink: 'https://github.com/TarunaAsthana23/Amazon_Clone',
     // pageLink: 'https://tarunaasthana23.github.io/Amazon_Clone/',
-    vercelLink: '', // replace with your actual Vercel URL
+    // vercelLink: '', 
+    // replace with your actual Vercel URL
   },
   {
     title: 'Event Management',
@@ -51,7 +52,8 @@ const projects = [
     tools: ['java', 'github', 'vscode', 'vercel'],
     repoLink: 'https://github.com/TarunaAsthana23/handling-form-submission',
     // pageLink: 'https://tarunaasthana23.github.io/portfolio/',
-    vercelLink: '', // replace with your actual Vercel URL
+    // vercelLink: '',
+     // replace with your actual Vercel URL
     
   },
 
@@ -115,7 +117,7 @@ function Projects() {
                 <FaGithub /> Repository
               </a>
               <a href={project.vercelLink} target="_blank" rel="noreferrer">
-                <FaGithub /> Vercel
+              <SiVercel /> Vercel
               </a>
             </div> 
           </div>
