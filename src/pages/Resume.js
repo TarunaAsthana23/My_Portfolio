@@ -3,44 +3,45 @@
 import React from "react";
 
 // import { Link } from "react-scroll";
-import "./Resume.css";  // ← Yeh line add kariye
+import "./Rum.css";  
+// ← Yeh line add kariye
 
 
 
 
 function Resume() {
   return (
-    <section id="resume" name="resume"  >                       
-        <div className="Rum fade-in-right" >  
+    <section id="resume" name="resume">                       
+        <div className="Rum fade-in-right">  
 
 
             <div className="Rum_1 fade-in-right">
-          <h1>Resume</h1>
+                <h1>Resume</h1>
             </div>
 
-            <div className="Rum_2 fade-in-right" >
-                <div className="Rum_3 fade-in-right">
-                      {/* Embedded Resume */}
-                    <div className="resume-box">
-                        <iframe src="/Set/Resume/2025 TARUNA_ASTHANA.pdf" title="Resume" width="100%" height="500px" > </iframe>
-                    </div>   
-                </div>
+            <div className="Rum_2 fade-in-right">
+                
+                    {/* Embedded Resume */}
+                <div className="resume-box">
+                    <iframe src="/Set/Resume/2025 TARUNA_ASTHANA.pdf" title="Resume" width="100%" height="500px"> </iframe>
+                </div>   
+                
 
-                <div className="Rum_4 fade-in-right" >
+                
               
             
-                    <div className="btn_8 fade-in-right">
-                        {/* Preview CV */}
-                        <button onClick={() => window.open("/Set/Resume/2025 TARUNA_ASTHANA.pdf", "_blank")}>
-                        View Fullscreen
-                        </button>
+                <div className="btn_8 fade-in-right">
+                    {/* Preview CV */}
+                    <button onClick={() => window.open("/Set/Resume/2025 TARUNA_ASTHANA.pdf", "_blank")}>
+                    View Fullscreen
+                    </button>
                         
-                        {/* Download CV */}
-                        <a href="/Set/Resume/2025 TARUNA_ASTHANA.pdf" download>
-                        <button>Download CV</button>
-                        </a>
-                    </div>
+                    {/* Download CV */}
+                    <a href="/Set/Resume/2025 TARUNA_ASTHANA.pdf" download>
+                    <button>Download CV</button>
+                    </a>
                 </div>
+                
           
             </div>
 
@@ -72,7 +73,7 @@ function Resume() {
   
 //           <div className="resume-content">
 //             <div className="resume-box">
-              {/* Embedded Resume using Google Viewer */}
+              /* Embedded Resume using Google Viewer */
     //           <iframe
     //             src={resumeURL}
     //             title="Resume"

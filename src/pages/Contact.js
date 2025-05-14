@@ -2,7 +2,7 @@
 
 import React from "react";
 // import profilePic from "../Assets/Home/Chubby(1).jpg";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 import {
   FaLinkedin,
   FaGithub,
