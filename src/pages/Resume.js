@@ -23,7 +23,7 @@ function Resume() {
                 
                     {/* Embedded Resume */}
                 <div className="resume-box">
-                    <iframe src="/Set/Resume/2025 TARUNA_ASTHANA.pdf" title="Resume" width="100%" height="500px"> </iframe>
+                    <iframe src="/Set/Resume/2025_TARUNA_ASTHANA.pdf" title="Resume" width="100%" height="500px"> </iframe>
                 </div>   
                 
 
@@ -32,12 +32,12 @@ function Resume() {
             
                 <div className="btn_8 fade-in-right">
                     {/* Preview CV */}
-                    <button onClick={() => window.open("/Set/Resume/2025 TARUNA_ASTHANA.pdf", "_blank")}>
+                    <button onClick={() => window.open("/Set/Resume/2025_TARUNA_ASTHANA.pdf", "_blank")}>
                     View Fullscreen
                     </button>
                         
                     {/* Download CV */}
-                    <a href="/Set/Resume/2025 TARUNA_ASTHANA.pdf" download>
+                    <a href="/Set/Resume/2025_TARUNA_ASTHANA.pdf" download>
                     <button>Download CV</button>
                     </a>
                 </div>
