@@ -1,7 +1,7 @@
 // src/pages/Home.js
 
 import React from "react";
-import profilePic_1 from "../Assets/Home/Taruna(1).jpg";
+import profilePic_1 from "../Assets/Home/Chubby.jpg";
 // import { Link } from "react-scroll";
 import "./Home.css";  // ← Yeh line add kariye
 

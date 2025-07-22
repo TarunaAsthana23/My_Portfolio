@@ -23,7 +23,7 @@ function Resume() {
                 
                     {/* Embedded Resume */}
                 <div className="resume-box">
-                    <iframe src="/Set/Resume/2025_TARUNA_ASTHANA.pdf" title="Resume" width="100%" height="500px"> </iframe>
+                    <iframe src="https://docs.google.com/gview?url=https://cts.vercel.app/Set/Resume/2025%20TARUNA_ASTHANA.pdf&embedded=true" title="Resume" width="100%" height="500px"> </iframe>
                 </div>   
                 
 
