@@ -1,6 +1,6 @@
 // src/pages/Projects.js
 
-import React from 'react';
+import React, { useState } from 'react';
 import './Projects.css';
 import {
   FaHtml5,
@@ -18,6 +18,7 @@ import { VscVscode } from "react-icons/vsc";
 
 const projects = [
   {
+    id: 1,
     title: 'Amazon Clone',
     image: '/Set/Images/Amazon.png',
     description: 'An e-commerce website clone created using HTML, CSS, and JavaScript.',
@@ -28,6 +29,7 @@ const projects = [
     // replace with your actual Vercel URL
   },
   {
+    id: 2,
     title: 'Event Management',
     image: '/Set/Images/Event Management.png',
     description: 'An event management website developed using HTML, CSS, JavaScript, and TypeScript.',
@@ -37,6 +39,7 @@ const projects = [
     vercelLink: 'https://event-management-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
   },
   {
+    id: 3,
     title: 'Apparent Clone',
     image: '/Set/Images/Apparent.png',
     description: 'A clone of Apparent Technologies Inc. official website built using HTML, CSS, and JavaScript.',
@@ -46,6 +49,7 @@ const projects = [
     vercelLink: 'https://apparent-git-main-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
   },
   {
+    id: 4,
     title: 'Handling Form Submission',
     image: '/Set/Images/S1.png',
     description: 'A project to handle form submission using Java.',
@@ -58,6 +62,7 @@ const projects = [
   },
 
   {
+    id: 5,
     title: 'My Portfolio',
     image: '/Set/Images/My Portfolio.png',
     description: 'A personal portfolio website created using React.js.',
@@ -69,6 +74,7 @@ const projects = [
   },
 
   {
+    id: 6,
     title: 'Portfolio',
     image: '/Set/Images/Portfolio.png',
     description: 'A personal portfolio website created using React.js.',
@@ -78,6 +84,7 @@ const projects = [
     vercelLink: 'https://portfolio-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
 
   },
+
 ];
 
 const iconMap = {
@@ -93,12 +100,18 @@ const iconMap = {
 };
 
 function Projects() {
+   const [showAll, setShowAll] = useState(false);
+
+  // Pehle 6 cards dikhane ka logic
+  const displayedProjects = showAll ? projects : projects.slice(0, 6);
+
+
   return (
     <section id="projects" name="projects">
     <div className="projects-section" >
       <h1 className="projects-title">PROJECTS</h1>
       <div className="projects-container">
-        {projects.map((project, index) => (
+        {displayedProjects.map((project, index) => (
 
           <div className="project-card" key={index}>
             <img src={project.image} alt={project.title} className="project-img" />
@@ -119,12 +132,19 @@ function Projects() {
               <a href={project.vercelLink} target="_blank" rel="noreferrer">
               <SiVercel /> Vercel
               </a>
+        
             </div> 
           </div>
 
         ))}
       </div>
 
+       {/* View More / View Less Button */}
+        {projects.length > 6 && (
+          <div className="view">
+            <button className="view-btn" onClick={() => setShowAll(!showAll)}> {showAll ? "View Less" : "View More"} </button>
+          </div>
+        )}
 
       <div className="btn_7 ">
           {/* Button */}
