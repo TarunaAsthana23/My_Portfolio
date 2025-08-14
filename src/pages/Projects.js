@@ -19,6 +19,51 @@ import { VscVscode } from "react-icons/vsc";
 const projects = [
   {
     id: 1,
+    title: 'Codemic',
+    image: '/Set/Images/Codemic.png',
+    description: 'A responsive and visually appealing website for a web development company, designed to showcase services, portfolio, and contact details in a professional, user-friendly manner. Built using React.js for the frontend and Node.js for the backend, with MongoDB as the database, the site delivers a modern design, smooth navigation, and reliable performance across all devices.',
+    tools: ['html', 'css', 'bootstrap', 'js', 'github', 'vscode', 'vercel', 'react'],
+    repoLink: 'https://github.com/TarunaAsthana23/codemic.git',
+    // pageLink: 'https://tarunaasthana23.github.io/portfolio',
+    vercelLink: 'https://codemic-781vw74v3-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
+  },
+
+  {
+    id: 2,
+    title: 'Portfolio',
+    image: '/Set/Images/Portfolio.png',
+    description: 'A personal portfolio website created using React.js.',
+    tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel', 'react'],
+    repoLink: 'https://github.com/TarunaAsthana23/PORTFOLIO.git',
+    // pageLink: 'https://tarunaasthana23.github.io/portfolio',
+    vercelLink: 'https://portfolio-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
+
+  },
+
+  {
+    id: 3,
+    title: 'Event Management',
+    image: '/Set/Images/Event Management.png',
+    description: 'An event management website developed using HTML, CSS, JavaScript, and TypeScript.',
+    tools: ['html', 'css', 'js', 'bootstrap', 'github', 'vscode', 'vercel'],
+    repoLink: 'https://github.com/TarunaAsthana23/Event-Management',
+    // pageLink: 'https://tarunaasthana23.github.io/Event-Management/',
+    vercelLink: 'https://event-management-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
+  },
+
+  {
+    id: 4,
+    title: 'My Portfolio',
+    image: '/Set/Images/My Portfolio.png',
+    description: 'A personal portfolio website created using React.js.',
+    tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel', 'react'],
+    repoLink: 'https://github.com/TarunaAsthana23/My_Portfolio.git',
+    // pageLink: 'https://tarunaasthana23.github.io/portfolio',
+    vercelLink: 'https://my-portfolio-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
+  },
+
+  {
+    id: 5,
     title: 'Amazon Clone',
     image: '/Set/Images/Amazon.png',
     description: 'An e-commerce website clone created using HTML, CSS, and JavaScript.',
@@ -28,18 +73,9 @@ const projects = [
     // vercelLink: '', 
     // replace with your actual Vercel URL
   },
+  
   {
-    id: 2,
-    title: 'Event Management',
-    image: '/Set/Images/Event Management.png',
-    description: 'An event management website developed using HTML, CSS, JavaScript, and TypeScript.',
-    tools: ['html', 'css', 'js', 'bootstrap', 'github', 'vscode', 'vercel'],
-    repoLink: 'https://github.com/TarunaAsthana23/Event-Management',
-    // pageLink: 'https://tarunaasthana23.github.io/Event-Management/',
-    vercelLink: 'https://event-management-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
-  },
-  {
-    id: 3,
+    id: 6,
     title: 'Apparent Clone',
     image: '/Set/Images/Apparent.png',
     description: 'A clone of Apparent Technologies Inc. official website built using HTML, CSS, and JavaScript.',
@@ -49,7 +85,7 @@ const projects = [
     vercelLink: 'https://apparent-git-main-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
   },
   {
-    id: 4,
+    id: 7,
     title: 'Handling Form Submission',
     image: '/Set/Images/S1.png',
     description: 'A project to handle form submission using Java.',
@@ -60,30 +96,7 @@ const projects = [
      // replace with your actual Vercel URL
     
   },
-
-  {
-    id: 5,
-    title: 'My Portfolio',
-    image: '/Set/Images/My Portfolio.png',
-    description: 'A personal portfolio website created using React.js.',
-    tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel', 'react'],
-    repoLink: 'https://github.com/TarunaAsthana23/My_Portfolio.git',
-    // pageLink: 'https://tarunaasthana23.github.io/portfolio',
-    vercelLink: 'https://my-portfolio-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
-
-  },
-
-  {
-    id: 6,
-    title: 'Portfolio',
-    image: '/Set/Images/Portfolio.png',
-    description: 'A personal portfolio website created using React.js.',
-    tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel', 'react'],
-    repoLink: 'https://github.com/TarunaAsthana23/PORTFOLIO.git',
-    // pageLink: 'https://tarunaasthana23.github.io/portfolio',
-    vercelLink: 'https://portfolio-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
-
-  },
+  
 
 ];
 
@@ -161,3 +174,13 @@ function Projects() {
 }
 
 export default Projects;
+
+// "Building Websites That Build Your Business."
+
+// "Where Creative Design Meets Powerful Code."
+
+// "Crafting Digital Solutions for Modern Businesses."
+
+// "Turning Ideas into Stunning Web Experiences."
+
+// "Your Vision, Our Code."
