@@ -25,7 +25,7 @@ const projects = [
     tools: ['html', 'css', 'bootstrap', 'js', 'github', 'vscode', 'vercel', 'react'],
     repoLink: 'https://github.com/TarunaAsthana23/codemic.git',
     // pageLink: 'https://tarunaasthana23.github.io/portfolio',
-    vercelLink: 'https://codemic-781vw74v3-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
+    vercelLink: 'https://codemic.vercel.app/', // replace with your actual Vercel URL
   },
 
   {
