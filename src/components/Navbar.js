@@ -52,7 +52,7 @@ function Navbar() {
         <FontAwesomeIcon icon={faLinkedin} size="lg" alt="LinkedIn" />
         </a>
         {/* <a href="https://your-portfolio.com" target="_blank" rel="noreferrer"> */}
-        <a href="https://portfolio-tarunaasthana.vercel.app/" target="_blank" rel="noreferrer">
+        <a href="https://my-portfolio-tarunaasthana.vercel.app/" target="_blank" rel="noreferrer">
         <FontAwesomeIcon icon={faFolderOpen} size="lg" alt="Portfolio" />
         </a>
         <a href="mailto:hiyasrivastava777@gmail.com" target="_blank" rel="noreferrer">
