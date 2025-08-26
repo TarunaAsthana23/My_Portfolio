@@ -33,12 +33,12 @@ function About() {
             
               <div className="btn_2 fade-in-right">
                   {/* Preview CV */}
-                <button onClick={() => window.open("/Set/Resume/2025_TARUNA_ASTHANA.pdf", "_blank")}>
+                <button onClick={() => window.open("/Set/Resume/LTaruna Asthana.pdf.pdf.pdf", "_blank")}>
                   Preview CV
                 </button>
 
                   {/* Download CV */}
-                <a href="/Set/Resume/2025_TARUNA_ASTHANA.pdf" download>
+                <a href="/Set/Resume/LTaruna Asthana.pdf.pdf.pdf" download>
                   <button>Download CV</button>
                 </a>
               </div>

@@ -36,7 +36,7 @@ const projects = [
     tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel', 'react'],
     repoLink: 'https://github.com/TarunaAsthana23/PORTFOLIO.git',
     // pageLink: 'https://tarunaasthana23.github.io/portfolio',
-    vercelLink: 'https://portfolio-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
+    vercelLink: 'https://portfolio-tarunaasthana.vercel.app/', // replace with your actual Vercel URL
 
   },
 
@@ -59,7 +59,7 @@ const projects = [
     tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel', 'react'],
     repoLink: 'https://github.com/TarunaAsthana23/My_Portfolio.git',
     // pageLink: 'https://tarunaasthana23.github.io/portfolio',
-    vercelLink: 'https://my-portfolio-tarunaasthana23-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
+    vercelLink: 'https://my-portfolio-tarunaasthana.vercel.app/', // replace with your actual Vercel URL
   },
 
   {
@@ -82,7 +82,7 @@ const projects = [
     tools: ['html', 'css', 'js', 'github', 'vscode', 'vercel'],
     repoLink: 'https://github.com/TarunaAsthana23/Apparent_Clone-Website',
     // pageLink: 'https://tarunaasthana23.github.io/Apparent_Clone-Website/',
-    vercelLink: 'https://apparent-git-main-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
+    // vercelLink: 'https://apparent-git-main-taruna-asthanas-projects.vercel.app/', // replace with your actual Vercel URL
   },
   {
     id: 7,
